@@ -146,6 +146,6 @@ return {
         }
     },
     enums = {
-        require('modules.keyboard.enums.KeyConstant')
+        require('api.love.keyboard.enums.KeyConstant')
     }
 }

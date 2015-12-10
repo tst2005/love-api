@@ -766,6 +766,6 @@ return {
         }
     },
     enums = {
-        require('modules.window.enums.FullscreenType')
+        require('api.love.window.enums.FullscreenType')
     }
 }

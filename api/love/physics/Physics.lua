@@ -2,26 +2,26 @@ return {
     name = 'physics',
     description = 'Can simulate 2D rigid body physics in a realistic manner. This module is based on Box2D, and this API corresponds to the Box2D API as closely as possible.',
     types = {
-        require('modules.physics.types.Body'),
-        require('modules.physics.types.ChainShape'),
-        require('modules.physics.types.CircleShape'),
-        require('modules.physics.types.Contact'),
-        require('modules.physics.types.EdgeShape'),
-        require('modules.physics.types.DistanceJoint'),
-        require('modules.physics.types.Fixture'),
-        require('modules.physics.types.FrictionJoint'),
-        require('modules.physics.types.GearJoint'),
-        require('modules.physics.types.Joint'),
-        require('modules.physics.types.MouseJoint'),
-        require('modules.physics.types.PolygonShape'),
-        require('modules.physics.types.PrismaticJoint'),
-        require('modules.physics.types.PulleyJoint'),
-        require('modules.physics.types.RevoluteJoint'),
-        require('modules.physics.types.RopeJoint'),
-        require('modules.physics.types.Shape'),
-        require('modules.physics.types.WeldJoint'),
-        require('modules.physics.types.WheelJoint'),
-        require('modules.physics.types.World')
+        require('api.love.physics.types.Body'),
+        require('api.love.physics.types.ChainShape'),
+        require('api.love.physics.types.CircleShape'),
+        require('api.love.physics.types.Contact'),
+        require('api.love.physics.types.EdgeShape'),
+        require('api.love.physics.types.DistanceJoint'),
+        require('api.love.physics.types.Fixture'),
+        require('api.love.physics.types.FrictionJoint'),
+        require('api.love.physics.types.GearJoint'),
+        require('api.love.physics.types.Joint'),
+        require('api.love.physics.types.MouseJoint'),
+        require('api.love.physics.types.PolygonShape'),
+        require('api.love.physics.types.PrismaticJoint'),
+        require('api.love.physics.types.PulleyJoint'),
+        require('api.love.physics.types.RevoluteJoint'),
+        require('api.love.physics.types.RopeJoint'),
+        require('api.love.physics.types.Shape'),
+        require('api.love.physics.types.WeldJoint'),
+        require('api.love.physics.types.WheelJoint'),
+        require('api.love.physics.types.World')
     },
     functions = {
         {
@@ -981,8 +981,8 @@ return {
         }
     },
     enums = {
-        require('modules.physics.enums.BodyType'),
-        require('modules.physics.enums.JointType'),
-        require('modules.physics.enums.ShapeType')
+        require('api.love.physics.enums.BodyType'),
+        require('api.love.physics.enums.JointType'),
+        require('api.love.physics.enums.ShapeType')
     }
 }

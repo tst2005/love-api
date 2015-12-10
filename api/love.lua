@@ -32,22 +32,22 @@ return {
         }
     },
     modules = {
-        require('modules.audio.Audio'),
-        require('modules.event.Event'),
-        require('modules.filesystem.Filesystem'),
-        require('modules.graphics.Graphics'),
-        require('modules.image.Image'),
-        require('modules.joystick.Joystick'),
-        require('modules.keyboard.Keyboard'),
-        require('modules.math.Math'),
-        require('modules.mouse.Mouse'),
-        require('modules.physics.Physics'),
-        require('modules.sound.Sound'),
-        require('modules.system.System'),
-        require('modules.thread.Thread'),
-        require('modules.timer.Timer'),
-        require('modules.touch.Touch'),
-        require('modules.window.Window')
+        require('api.love.audio.Audio'),
+        require('api.love.event.Event'),
+        require('api.love.filesystem.Filesystem'),
+        require('api.love.graphics.Graphics'),
+        require('api.love.image.Image'),
+        require('api.love.joystick.Joystick'),
+        require('api.love.keyboard.Keyboard'),
+        require('api.love.math.Math'),
+        require('api.love.mouse.Mouse'),
+        require('api.love.physics.Physics'),
+        require('api.love.sound.Sound'),
+        require('api.love.system.System'),
+        require('api.love.thread.Thread'),
+        require('api.love.timer.Timer'),
+        require('api.love.touch.Touch'),
+        require('api.love.window.Window')
     },
     types = {
         {

@@ -2,7 +2,7 @@ return {
     name = 'mouse',
     description = 'Provides an interface to the user\'s mouse.',
     types = {
-        require('modules.mouse.types.Cursor')
+        require('api.love.mouse.types.Cursor')
     },
     functions = {
         {
@@ -393,7 +393,7 @@ return {
         }
     },
     enums = {
-        require('modules.mouse.enums.CursorType'),
-        require('modules.mouse.enums.MouseConstant')
+        require('api.love.mouse.enums.CursorType'),
+        require('api.love.mouse.enums.MouseConstant')
     }
 }

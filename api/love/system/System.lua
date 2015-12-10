@@ -127,6 +127,6 @@ return {
         }
     },
     enums = {
-        require('modules.system.enums.PowerState')
+        require('api.love.system.enums.PowerState')
     }
 }

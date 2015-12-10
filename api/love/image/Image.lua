@@ -2,8 +2,8 @@ return {
     name = 'image',
     description = 'Provides an interface to decode encoded image data.',
     types = {
-        require('modules.image.types.CompressedImageData'),
-        require('modules.image.types.ImageData'),
+        require('api.love.image.types.CompressedImageData'),
+        require('api.love.image.types.ImageData'),
     },
     functions = {
         {
@@ -159,7 +159,7 @@ return {
         }
     },
     enums = {
-        require('modules.image.enums.CompressedImageFormat'),
-        require('modules.image.enums.ImageFormat')
+        require('api.love.image.enums.CompressedImageFormat'),
+        require('api.love.image.enums.ImageFormat')
     }
 }

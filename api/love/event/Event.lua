@@ -114,6 +114,6 @@ return {
         }
     },
     enums = {
-        require('modules.event.enums.Event')
+        require('api.love.event.enums.Event')
     }
 }

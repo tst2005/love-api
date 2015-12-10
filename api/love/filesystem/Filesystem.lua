@@ -2,8 +2,8 @@ return {
     name = 'filesystem',
     description = 'Provides an interface to the user\'s filesystem.',
     types = {
-        require('modules.filesystem.types.File'),
-        require('modules.filesystem.types.FileData')
+        require('api.love.filesystem.types.File'),
+        require('api.love.filesystem.types.FileData')
     },
     functions = {
         {
@@ -707,8 +707,8 @@ return {
         }
     },
     enums = {
-        require('modules.filesystem.enums.BufferMode'),
-        require('modules.filesystem.enums.FileDecoder'),
-        require('modules.filesystem.enums.FileMode')
+        require('api.love.filesystem.enums.BufferMode'),
+        require('api.love.filesystem.enums.FileDecoder'),
+        require('api.love.filesystem.enums.FileMode')
     }
 }
